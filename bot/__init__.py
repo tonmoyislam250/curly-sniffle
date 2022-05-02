@@ -329,9 +329,6 @@ try:
 except KeyError:
     IGNORE_PENDING_REQUESTS = False
 
-if not DRIVE_ID:
-    LOGGER.error("The README.md file there to be read! Exiting now!")
-    exit(1)
 
 try:
     CHAT_ID = getConfig('CHAT_ID')
