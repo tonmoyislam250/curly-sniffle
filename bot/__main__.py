@@ -205,11 +205,8 @@ def bot_help(update, context):
 
 botcmds = [
         (f'{BotCommands.SpeedCommand}','Speed Of The Bot'),
-        (f'{BotCommands.UpdateCommand}','Get Updated by Repository'),
         (f'{BotCommands.HelpCommand}','Get Detailed Help'),
-        (f'{BotCommands.SearchCommand}','Get Torrent By Searching'),
         (f'{BotCommands.StartCommand}','Start The Bot'),
-        (f'{BotCommands.ConfigMenuCommand}','Configuration of The bot'),
         (f'{BotCommands.MirrorCommand}','Start Mirroring'), 
         (f'{BotCommands.ZipMirrorCommand}','Start mirroring and upload as .zip'),
         (f'{BotCommands.UnzipMirrorCommand}','Extract files'),
@@ -239,8 +236,7 @@ botcmds = [
         (f'{BotCommands.LogCommand}','Get the Bot Log [owner/sudo only]'),
         (f'{BotCommands.RssHelpCommand}','Get help for RSS feeds module'),
         (f'{BotCommands.TsHelpCommand}','Get help for Torrent search module'),
-        (f'{BotCommands.MediaInfoCommand}','Get media info for files'),
-        (f'{BotCommands.LookCommand}','Get Looking for Files')
+        
 ]
 
 
